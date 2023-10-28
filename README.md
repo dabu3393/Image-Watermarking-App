@@ -23,30 +23,31 @@ https://github.com/dabu3393/Image-Watermarking-App/assets/97137252/c894be17-8659
 
 ## Getting Started
 
-The PDF to Audiobook Converter is a user-friendly Python application that enables users to effortlessly transform PDF documents into audio files. It serves as a handy tool for converting text-based content from PDFs into MP3 audio files, effectively creating audiobooks that are accessible on the go.
+The Image Watermark Adder is a Python application with a graphical user interface (GUI) that allows users to select images, add watermarks to them, and save the watermarked images. It simplifies the process of protecting images with a watermark.
 
 ## Key Features
 
-- **User-Friendly Interface**: The application offers a simple and intuitive graphical user interface, making it easy for users to select PDF files and convert them into audiobooks with just a few clicks.
+- **Image Selection**: Easily select one or more images from your local system. Supported image formats include JPG, PNG, and JPEG.
 
-- **Seamless PDF Selection**: Users can select the PDF file they wish to convert using a built-in file dialog. The chosen PDF file is displayed on the interface for easy reference.
+- **Thumbnail Display**: The application displays selected images as thumbnails on a scrollable canvas, making it convenient for users to see and choose images for watermarking.
 
-- **Google Cloud Text-to-Speech**: The converter leverages the power of the Google Cloud Text-to-Speech API to synthesize high-quality audio from the text content extracted from the PDF.
+- **Watermark Addition**: Users can add a watermark image to the selected image. The watermark image should be provided separately and should contain the watermark to be applied.
 
-- **Customizable Audiobooks**: The application allows users to choose from a variety of voice options, languages, and audio encoding settings to customize their audiobooks according to their preferences.
+- **Adjustable Watermark Size**: The application scales the watermark image to fit the selected image, maintaining aspect ratio, and allows users to control the opacity (transparency) of the watermark.
 
-- **Download to Local Directory**: The resulting MP3 audiobook is saved in the user's local "Downloads" directory for convenient access.
+- **Output Image Saving**: After adding the watermark, users can choose the destination to save the watermarked image.
 
-- **Clear User Feedback**: The application provides clear feedback about the conversion process and displays a success message upon the successful creation of the audiobook.
+
 
 ## Usage
 
-1. Open the application.
-2. Click the "Select PDF" button to choose a PDF file for conversion.
-3. Click the "Convert" button to start the conversion process.
-4. The resulting audiobook is saved to your local "Downloads" directory.
+1. Run the image_watermark_adder.py script to start the application.
+2. Click the "Add Images" button to select one or more images for watermarking.
+3. Select an image from the thumbnails displayed on the canvas.
+4. Click the "Add Watermark" button to add a watermark to the selected image.
+5. Choose the destination and file name to save the watermarked image.
 
 ## Required Downloads
 I have included a requirements.txt, which you should download in your virtual environment.
 
-[Requirements](https://github.com/dabu3393/Convert-PDF-to-Audiobook/blob/main/requirements.txt)
+[Requirements](https://github.com/dabu3393/Image-Watermarking-App/blob/main/requirements.txt)
